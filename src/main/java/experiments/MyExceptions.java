@@ -24,13 +24,8 @@ public class MyExceptions {
 
   public static void uncheckableExceptions(int a, int b){
     int result = 0;
-    try{
-      result = a/b;
-      System.out.println("result --> " + result);
-    }catch (ArithmeticException e){
-      result = 1;
-      System.out.println("result --> " + result);
-    }
+    result = a/b;
+    System.out.println("result --> " + result);
   }
 
 }
