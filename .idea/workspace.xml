@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e54cb16-87f4-4a27-bc9e-d0fffa1053bc" name="Changes" comment="added some files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/RegularExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/ExplicitWaits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/experiments/RegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/RegularExpression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,7 @@
     "Application.MyExceptions.executor": "Run",
     "Application.RegularExpression.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ExplicitWaits.explicitWait.executor": "Run",
     "JUnit.Locators.locatorsCss.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -71,7 +70,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RegularExpression">
+  <component name="RunManager" selected="JUnit.ExplicitWaits.explicitWait">
     <configuration name="MyCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="experiments.MyCollections" />
       <module name="DemoQA43" />
@@ -111,6 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExplicitWaits.explicitWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA43" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.ExplicitWaits" />
+      <option name="METHOD_NAME" value="explicitWait" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Locators.locatorsCss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoQA43" />
       <extension name="coverage">
@@ -127,19 +142,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExplicitWaits.explicitWait" />
         <item itemvalue="Application.RegularExpression" />
         <item itemvalue="JUnit.Locators.locatorsCss" />
         <item itemvalue="Application.MyCollections" />
